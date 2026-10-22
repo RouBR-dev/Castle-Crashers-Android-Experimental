@@ -1,0 +1,10 @@
+[project]
+sdk_version = "0.8.1.19"
+name = "castle"
+
+[entrypoint]
+file_path = "@CASTLE_GAME_DATA_ROOT_CONFIG@/default.xex"
+out_directory_path = "@CASTLE_SOURCE_DIR_CONFIG@/generated"
+includes = [
+  "@CASTLE_SOURCE_DIR_CONFIG@/config/castle_functions.toml",
+]

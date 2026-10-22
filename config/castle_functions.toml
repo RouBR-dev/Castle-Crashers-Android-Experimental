@@ -1,0 +1,15 @@
+# Castle Crashers (XBLA 584108B7) - ajustes do codegen.
+# default.xex: base 0x82000000, entry point 0x820B7090.
+#
+# Fluxo: 1) rode o codegen uma vez. 2) Os erros/avisos de "jump table" e
+# funcoes nao resolvidas aparecem no log: adicione-os aqui, um a um.
+# O formato exato das chaves deve seguir o do SDK usado - veja
+# third_party/rexglue-sdk/docs e o exemplo do skate3: config/skate3_functions.toml
+# (no repositorio Skate3-Mobile).
+#
+# Exemplo (NAO ativo):
+# [functions.0x82001234]
+# name = "minha_funcao"
+
+[functions]
+"0x820E15E8" = {}
